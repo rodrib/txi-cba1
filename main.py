@@ -320,7 +320,7 @@ st.plotly_chart(fig_sales, use_container_width=True)
 
 
 ui.table(data=df_saldo_anterior1, maxHeight=300)
-
+#st.write(df_saldo_anterior1)
 ################
 import pandas as pd
 import streamlit as st

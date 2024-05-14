@@ -355,3 +355,7 @@ fig = calplot(df_calendar, x="Fecha", y="Count")
 
 # Mostrar el gráfico en Streamlit
 st.plotly_chart(fig)
+
+
+#####
+ui.table(data=df_saldo_anterior1, maxHeight=300)

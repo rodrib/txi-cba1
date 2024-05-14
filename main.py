@@ -280,7 +280,7 @@ for mes, tasa_inflacion in inflacion_2023.items():
     df_saldo_anterior1.loc[df_saldo_anterior1['Mes'] == mes, 'Saldo Ajustado'] = round(df_saldo_anterior['Saldo'] * factor_ajuste, 2)
 
 # Mostrar los saldos ajustados por inflación en Streamlit
-st.write("Saldos ajustados por inflación:")
+st.subheader("Saldos ajustados por inflación:")
 #st.write(df_saldo_anterior1)
 
 #no se ve??

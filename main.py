@@ -283,7 +283,8 @@ for mes, tasa_inflacion in inflacion_2023.items():
 st.write("Saldos ajustados por inflación:")
 #st.write(df_saldo_anterior1)
 
-ui.table(data=df_saldo_anterior1, maxHeight=300)
+#no se ve??
+#ui.table(data=df_saldo_anterior1, maxHeight=300)
 
 # Datos proporcionados
 nuevo_data = {
@@ -357,5 +358,3 @@ fig = calplot(df_calendar, x="Fecha", y="Count")
 st.plotly_chart(fig)
 
 
-#####
-ui.table(data=df_saldo_anterior1, maxHeight=300)
